@@ -1,0 +1,60 @@
+<div class="header">
+  <div class="header_top">
+    <div class="logo"><a href="/"></a></div>
+    <div class="title"><a href="/"></a></div>
+    <div class="tel"><img src="{dede:global.cfg_cmsurl/}/skin/images/tel.png" alt="服务电话" width="220" height="60" /> </div>
+  </div>
+  <!--导航-->
+  <div class="navgation">
+    <ul class="nav" id="navigation">
+      <li><a href="{dede:global.cfg_cmsurl/}/index.php?upcache=1">网站首页</a></li>
+      <li class="nav_line"></li>
+      <li><a href="{dede:global.cfg_cmsurl/}/a/guanyuwomen/">关于我们 </a>
+      </li>
+      <li class="nav_line"></li>
+      <li><a href="{dede:global.cfg_cmsurl/}/a/lvshituandui/">律师团队 </a>
+      </li>
+      <li class="nav_line"></li>
+      <li><a href="{dede:global.cfg_cmsurl/}/a/yewulingyu/">业务领域 <span class="nav_triangle">▼</span></a>
+        <ul class="sub_menu">
+          <div class="sub_menu_trig"></div>
+          <ul>
+            {dede:channel typeid='3' currentstyle="
+            <li><a href='~typelink~' class=''>~typename~</a> </li>
+            "}
+            <li><a href='[field:typelink/]'>[field:typename/]</a> </li>
+            {/dede:channel}
+          </ul>
+        </ul>
+      </li>
+      <li class="nav_line"></li>
+      <li><a href="{dede:global.cfg_cmsurl/}/a/chenggonganli/">成功案例</a>
+      </li>
+      <li class="nav_line"></li>
+      <li><a href="{dede:global.cfg_cmsurl/}/a/fangchanzixun/">房产资讯</a>
+      </li>
+      <li class="nav_line"></li>
+      <li><a href="{dede:global.cfg_cmsurl/}/a/lianxiwomen/">联系我们</a></li>
+    </ul>
+  </div>
+  <script type="text/javascript">
+	  // 导航菜单交互
+	  $(document).ready(function () {	
+		  // 鼠标悬停
+		  $(".nav li").hover(
+			  function () {
+				  //鼠标悬停子菜单
+				 // $("ul", this).fadeIn();
+				 $("ul",this).stop().slideDown();
+				 $("a",this).eq(0).addClass("on");
+				 
+			  }, 
+			  // 鼠标移除
+			  function () {
+				  $("ul", this).stop().slideUp();
+				  $("a",this).eq(0).removeClass("on");
+			  }
+		  );
+	  });
+	  </script> 
+</div>

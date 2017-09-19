@@ -1,0 +1,12 @@
+INSERT INTO `dede_addonarticle` VALUES('1','23','','','','0.0.0.0');
+INSERT INTO `dede_addonarticle` VALUES('2','23','','','','0.0.0.0');
+INSERT INTO `dede_addonarticle` VALUES('3','23','','','','0.0.0.0');
+INSERT INTO `dede_addonarticle` VALUES('4','23','','','','0.0.0.0');
+INSERT INTO `dede_addonarticle` VALUES('5','23','','','','0.0.0.0');
+INSERT INTO `dede_addonarticle` VALUES('6','23','','','','0.0.0.0');
+INSERT INTO `dede_addonarticle` VALUES('7','23','','','','0.0.0.0');
+INSERT INTO `dede_addonarticle` VALUES('8','23','','','','0.0.0.0');
+INSERT INTO `dede_addonarticle` VALUES('9','23','','','','0.0.0.0');
+INSERT INTO `dede_addonarticle` VALUES('10','23','','','','0.0.0.0');
+INSERT INTO `dede_addonarticle` VALUES('11','2','<img alt=\"\" src=\"/uploads/allimg/170728/1-1FHQ03R1O1.png\" style=\"width: 440px; height: 586px;\" />','','','0.0.0.0');
+INSERT INTO `dede_addonarticle` VALUES('12','2','<img alt=\"\" src=\"/haiwei/uploads/allimg/170726/client_(10).jpg\" style=\"width: 150px; height: 70px;\" /><br />\r\n<br />\r\nceshi<br />\r\n','','','0.0.0.0');

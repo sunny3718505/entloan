@@ -1,0 +1,45 @@
+<?php
+$z[0]=Array("global","",620,646);
+$z[0][4]['name']="cfg_webname";
+$z[1]=Array("global","",690,720);
+$z[1][4]['name']="cfg_description";
+$z[2]=Array("global","",757,784);
+$z[2][4]['name']="cfg_keywords";
+$z[3]=Array("global","",813,838);
+$z[3][4]['name']="cfg_cmsurl";
+$z[4]=Array("global","",907,932);
+$z[4][4]['name']="cfg_cmsurl";
+$z[5]=Array("include","",2109,2144);
+$z[5][4]['filename']="head.htm";
+$z[6]=Array("arclist","\r\n                  <div class=\"news_img f_l\"><a href=\"[field:arcurl/]\"><img width=\"107\" height=\"71\" src=\"[field:litpic/]\" /></a></div>\r\n                  <div class=\"news_intro f_r\"><a href=\"[field:arcurl/]\">[field:title/]</a>\r\n                    <p class=\"f_r dataTime\">[field:pubdate function=\"MyDate('Y-m-d',@me)\"/]</p>\r\n                  </div>\r\n                  ",8595,9032);
+$z[6][4]['typeid']="6";
+$z[6][4]['titlelen']="40";
+$z[6][4]['limit']="0,1";
+$z[7]=Array("arclist","\r\n                    <li><span class=\"f_l\"><a href=\"[field:arcurl/]\">[field:title/]</a></span><span class=\"dataTime f_r\">[field:pubdate function=\"MyDate('Y-m-d',@me)\"/]</span></li>\r\n                    ",9106,9376);
+$z[7][4]['typeid']="6";
+$z[7][4]['titlelen']="40";
+$z[7][4]['limit']="1,9";
+$z[8]=Array("arclist","\r\n                  <div class=\"news_img f_l\"><a href=\"[field:arcurl/]\"><img width=\"107\" height=\"71\" src=\"[field:litpic/]\" /></a></div>\r\n                  <div class=\"news_intro f_r\"><a href=\"[field:arcurl/]\">[field:title/]</a>\r\n                    <p class=\"f_r dataTime\">[field:pubdate function=\"MyDate('Y-m-d',@me)\"/]</p>\r\n                  </div>\r\n                  ",9825,10261);
+$z[8][4]['typeid']="5";
+$z[8][4]['titlelen']="40";
+$z[8][4]['limit']="0,1";
+$z[9]=Array("arclist","\r\n                    <li><span class=\"f_l\"><a href=\"[field:arcurl/]\">[field:title/]</a></span><span class=\"dataTime f_r\">[field:pubdate function=\"MyDate('Y-m-d',@me)\"/]</span></li>\r\n                    ",10335,10605);
+$z[9][4]['typeid']="5";
+$z[9][4]['titlelen']="40";
+$z[9][4]['limit']="1,9";
+$z[10]=Array("arclist","\r\n                <li>\r\n                  <div class=\"img_Mask\"><a href=\"[field:arcurl/]\"><img width=\"130\" height=\"164\" src=\"[field:litpic/]\" /></a>\r\n                    <div class=\"team_img_title\"><span><a href=\"[field:arcurl/]\">[field:title/]</a></span></div>\r\n                  </div>\r\n                </li>\r\n                ",11083,11475);
+$z[10][4]['typeid']="16";
+$z[10][4]['row']="6";
+$z[10][4]['titlelen']="40";
+$z[11]=Array("arclist","\r\n                <li><span class=\"f_l\"><a href=\"[field:arcurl/]\">[field:title/]</a></span><span class=\"dataTime f_r\">[field:pubdate function=\"MyDate('Y-m-d',@me)\"/]</span></li>\r\n                ",12268,12527);
+$z[11][4]['typeid']="19";
+$z[11][4]['row']="21";
+$z[11][4]['titlelen']="40";
+$z[12]=Array("arclist","\r\n                    <li><img src=\"[field:litpic/]\" width=\"120\" height=\"50\" alt=\"[field:title/]\" /></li>\r\n                    ",13404,13596);
+$z[12][4]['typeid']="16";
+$z[12][4]['row']="16";
+$z[12][4]['titlelen']="40";
+$z[13]=Array("include","",14771,14808);
+$z[13][4]['filename']="footer.htm";
+
+?>
